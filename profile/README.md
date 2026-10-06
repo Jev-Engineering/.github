@@ -16,8 +16,8 @@ We build open tooling around that idea: finding where a decision point in a code
 
 | Repository | Summary | License |
 | --- | --- | --- |
-| [`jev-integration-evaluator`](https://github.com/Jev-Engineering/jev-integration-evaluator) | Evidence-driven JEV integration analysis and evaluation toolkit | MIT |
-| [`TypeWright`](https://github.com/Jev-Engineering/TypeWright) | Declare a decision, compile typed Jev questions, measure them, and ship a JSON program. | MIT |
+| [`jev-integration-evaluator`](https://github.com/Jev-Engineering/jev-integration-evaluator) | Scan a codebase for decision points where JEV might help, offline and read-only, and test them with evidence | MIT |
+| [`TypeWright`](https://github.com/Jev-Engineering/TypeWright) | Declare a decision, compile typed Jev questions, measure them, and ship a JSON program | MIT |
 | [`layev`](https://github.com/Jev-Engineering/layev) | Open research implementation of parallel typed decisions and calibration inspired by Kev and Laya | Apache-2.0 |
 | [`jraphyte`](https://github.com/Jev-Engineering/jraphyte) | TRACE-GC evidence-bound graph synthesis, GraphRAG, and first-page research validation | MIT |
 
