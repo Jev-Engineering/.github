@@ -1,0 +1,38 @@
+name: Bug report
+description: Something does not behave as the README or docs say it does.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not report security problems here. Follow the repository's security policy instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The exact commands or inputs. Use the no-key or offline path where the project has one.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system and Python version.
+  - type: textarea
+    id: not-verified
+    attributes:
+      label: What you did not check
+      description: Anything you could not run or confirm, so we do not assume it.

@@ -14,17 +14,18 @@ We build open tooling around that idea: finding where a decision point in a code
 
 ## Repositories
 
-| Repository | What it is |
-| --- | --- |
-| [`jev-integration-evaluator`](https://github.com/Jev-Engineering/jev-integration-evaluator) | Scans a codebase for decision points where JEV might help and walks through testing it. Read-only and offline by default. MIT license. |
-| [`TypeWright`](https://github.com/Jev-Engineering/TypeWright) | Declare a decision, compile typed Jev questions, measure them, and ship a JSON program. Alpha 0.1. MIT license. |
-| [`layev`](https://github.com/Jev-Engineering/layev) | Open research implementation of parallel typed decisions and calibration, inspired by Kev and Laya. Apache-2.0 license. |
-| [`jraphyte`](https://github.com/Jev-Engineering/jraphyte) | TRACE-GC: evidence-bound graph compilation and GraphRAG reference implementation. |
+| Repository | Summary | License |
+| --- | --- | --- |
+| [`jev-integration-evaluator`](https://github.com/Jev-Engineering/jev-integration-evaluator) | Evidence-driven JEV integration analysis and evaluation toolkit | MIT |
+| [`TypeWright`](https://github.com/Jev-Engineering/TypeWright) | Declare a decision, compile typed Jev questions, measure them, and ship a JSON program. | MIT |
+| [`layev`](https://github.com/Jev-Engineering/layev) | Open research implementation of parallel typed decisions and calibration inspired by Kev and Laya | Apache-2.0 |
+| [`jraphyte`](https://github.com/Jev-Engineering/jraphyte) | TRACE-GC evidence-bound graph synthesis, GraphRAG, and first-page research validation | MIT |
 
 ## Limits
 
 - `layev` is a research candidate, not a validated Jev replacement. Its CPU fixture tests pass; native Qwen/CUDA checks and Jev-relative quality are still open.
 - `jraphyte` is a reference implementation with explicit deployment gates, not a qualified production service. Its demo uses fabricated observations and no provider.
+- `jev-integration-evaluator` is read-only and offline by default.
 - `TypeWright` is alpha: its no-key demo and core tests pass, but no live provider study has been completed and no measured accuracy gain is claimed.
 - Live provider results are not claimed here; each README states what was and was not exercised.
 
